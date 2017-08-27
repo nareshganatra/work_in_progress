@@ -27,15 +27,8 @@ def application_error(e):
     """Return a custom 500 error."""
     return 'Sorry, unexpected error: {}'.format(e), 500
 
-def bq_test():
-    '''
-    flow = flow_from_clientsecrets('client_secret_1055527281642-tefl57hmpug39uftv04t2de4lgj1vkck.apps.googleusercontent.com.json',
-                                   scope='https://www.googleapis.com/auth/bigquery',
-                                   redirect_uri='http://localhost:8080/')
-
-    auth_uri = flow.step1_get_authorize_url()
-    '''
-
+def BigQuery_test():
+   
     # Instantiates a client
 
     client = bigquery.Client()
