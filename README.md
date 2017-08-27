@@ -7,10 +7,6 @@ I will get to that in the next few days
 ## Author
 Naresh Ganatra ... added code/module to work with api.ai
 
-See our other [Google Cloud Platform github
-repos](https://github.com/GoogleCloudPlatform) for sample applications and
-scaffolding for other python frameworks and use cases.
-
 ## Run Locally
 1. Install the [App Engine Python SDK](https://developers.google.com/appengine/downloads).
 See the README file for directions. You'll need python 2.7 and [pip 1.4 or later](http://www.pip-installer.org/en/latest/installing.html) installed too.
