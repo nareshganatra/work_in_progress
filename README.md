@@ -1,7 +1,11 @@
-## Python Flask Skeleton for Google App Engine
+## api.ai webhook on Google App Engine
 
-A skeleton for building Python applications on Google App Engine with the
-[Flask micro framework](http://flask.pocoo.org).
+Python Flask Skeleton taken from https://github.com/GoogleCloudPlatform/appengine-try-python-flask.git
+Goal is to have this working to fetch data from Google BigQuery Public Dataset as seen in my video demo .
+I will get to that in the next few days
+
+## Author
+Naresh Ganatra ... added code/module to work with api.ai
 
 See our other [Google Cloud Platform github
 repos](https://github.com/GoogleCloudPlatform) for sample applications and
@@ -76,11 +80,5 @@ the SDK, only pure python libraries may be added to an App Engine project.
 Star this repo if you found it useful. Use the github issue tracker to give
 feedback on this repo.
 
-## Contributing changes
-See [CONTRIB.md](CONTRIB.md)
-
 ## Licensing
 See [LICENSE](LICENSE)
-
-## Author
-Logan Henriquez and Johan Euphrosine
