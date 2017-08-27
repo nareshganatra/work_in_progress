@@ -28,7 +28,7 @@ def application_error(e):
     return 'Sorry, unexpected error: {}'.format(e), 500
 
 def BigQuery_test():
-   
+    # Added by Naresh Ganatra
     # Instantiates a client
 
     client = bigquery.Client()
